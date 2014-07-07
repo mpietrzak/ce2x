@@ -1,0 +1,12 @@
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+ce2x.iml
+*.jar
+*.class
+/.lein-*
+/.idea
+/.nrepl-port

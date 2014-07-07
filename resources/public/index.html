@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>ce2x</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>edi-to-xml</h1>
+
+            <form role="form" method="post" enctype="multipart/form-data" action="parse-edi">
+                <div class="form-group">
+                    <label for="edisource">EDI source</label>
+                    <textarea id="edisource" name="edisource" class="form-control" rows="8"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="edifile">EDI file</label>
+                    <input type="file" id="edifile" name="edifile"/>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+
+    </body>
+</html>
