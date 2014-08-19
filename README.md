@@ -4,7 +4,7 @@ EDI 2 XML, based on https://github.com/zubairov/edi-to-xml/
 
 ## Why
 
-Because I find compilling original edi-to-xml way to hard and I wanted to be able to
+Because I find compilling original edi-to-xml way too hard and I wanted to be able to
 quickly tune/make changes to the code by myself.
 
 ## License
